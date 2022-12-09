@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://m900fqeth115q68d30014ra8s93s98f1m4lo7ulqhng45ealahtfvpfl.qc.dolfincdnx.cn:10443/xdispatch7c4871956ae1f5bd/bigota.d.miui.com/V13.0.3.0.SGHCNXM/miui_PHOENIX_V13.0.3.0.SGHCNXM_acc8f4fc8c_12.0.zip?bsreqid=470d2779019e92fb536fa0bb049155b6
+  ROM_URL: https://2unefvbnpjjds3p0bjhvp8kur34tqal1ifj6ds23utonf8d40qrfvfnt.qc.dolfincdnx.cn:10443/xdispatch7c4871956ae1f5bd/bigota.d.miui.com/V13.0.1.0.SGHCNXM/miui_PHOENIX_V13.0.1.0.SGHCNXM_79d505885f_12.0.zip?bsreqid=9c307d4022565926deb8b56eff664099
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
@@ -61,7 +61,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof ./final/GSI.zip
+              ./transfer gof  /final/GSI.zip
 
          
             
