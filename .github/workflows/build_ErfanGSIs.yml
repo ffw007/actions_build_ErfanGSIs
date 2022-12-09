@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://si50uek6rfv133ubh4saavs5r7m3dms69e2upglfp2hjrpkma04fvmc2.qc.dolfincdnx.cn:10443/xdispatch7c4871956ae1f5bd/bigota.d.miui.com/V13.0.3.0.SGHCNXM/miui_PHOENIX_V13.0.3.0.SGHCNXM_acc8f4fc8c_12.0.zip?bsreqid=562f1d65c4daa3ad3929915a47f0ee93
+  ROM_URL: https://m900fqeth115q68d30014ra8s93s98f1m4lo7ulqhng45ealahtfvpfl.qc.dolfincdnx.cn:10443/xdispatch7c4871956ae1f5bd/bigota.d.miui.com/V13.0.3.0.SGHCNXM/miui_PHOENIX_V13.0.3.0.SGHCNXM_acc8f4fc8c_12.0.zip?bsreqid=470d2779019e92fb536fa0bb049155b6
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
